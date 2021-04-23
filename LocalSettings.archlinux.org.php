@@ -395,6 +395,9 @@ $wgGroupPermissions['sysop']['usermerge'] = true;
 # Allow merging users with "Anonymous" (user_id 0)
 $wgReservedUsernames[] = 'Anonymous';
 
+# TextExtracts extension
+wfLoadExtension( 'TextExtracts' );
+
 ##
 ## Temporary settings for maintenance
 ##
