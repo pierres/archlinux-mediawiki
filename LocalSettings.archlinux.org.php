@@ -381,13 +381,13 @@ $wgCaptchaTriggers['createaccount'] = true;
 $wgCaptchaTriggers['badlogin'] = true;
 
 # Restrict expensive actions to logged in users
-wfLoadExtension( 'Lockdown' );
-$wgSpecialPageLockdown['Recentchanges'] = [ 'user' ];
-$wgSpecialPageLockdown['Newpages'] = [ 'user' ];
-$wgSpecialPageLockdown['Recentchangeslinked'] = [ 'user' ];
-$wgSpecialPageLockdown['Log'] = [ 'user' ];
-$wgSpecialPageLockdown['Diff'] = [ 'user' ];
-$wgActionLockdown['history'] = ['user'];
+#wfLoadExtension( 'Lockdown' );
+#$wgSpecialPageLockdown['Recentchanges'] = [ 'user' ];
+#$wgSpecialPageLockdown['Newpages'] = [ 'user' ];
+#$wgSpecialPageLockdown['Recentchangeslinked'] = [ 'user' ];
+#$wgSpecialPageLockdown['Log'] = [ 'user' ];
+#$wgSpecialPageLockdown['Diff'] = [ 'user' ];
+#$wgActionLockdown['history'] = ['user'];
 
 
 # Renameuser extension
