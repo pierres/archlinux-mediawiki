@@ -16,17 +16,6 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 }
 
 ##
-## LocalSettings.php
-##
-
-#$wgDBname     = "XXX";
-#$wgDBuser     = "XXX";
-#$wgDBpassword = "XXX";
-#$wgSecretKey  = "XXX";
-#$wgUpgradeKey = "XXX";
-
-
-##
 ## General settings
 ##
 
@@ -128,10 +117,6 @@ $wgUserEmailUseReplyTo = true;
 ##
 ## Cache and performance settings
 ##
-
-## Shared memory settings
-$wgMainCacheType    = CACHE_ACCEL;
-$wgMemCachedServers = array();
 
 ## Set $wgCacheDirectory to a writable directory on the web server
 ## to make your wiki go slightly faster. The directory should not
